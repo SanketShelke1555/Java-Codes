@@ -1,7 +1,0 @@
-INDEX VERSION 1.134
-C:\Users\Sanket Shelke\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\589424917.index
-\StudentServletCRUD\src\main\java
-C:\Users\Sanket Shelke\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1707887529.index
-\LoginRegisterCRUD\src\main\java
-C:\Users\Sanket Shelke\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2651789292.index
-\ServeltMavenProject\src\main\java
