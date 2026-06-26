@@ -1,0 +1,34 @@
+package collection;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Unionex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int arr1[]= {10,54,88,71,65,30,40,72};
+		int arr2[]= {60,54,71,65,88,41,65,48};
+		
+		Union(arr1,arr2);
+	}
+	
+	static void Union(int arr1[], int arr2[])
+	{
+		
+		Set<Integer> s = new HashSet<Integer>();
+		
+		for(int i=0;i<arr1.length;i++) {
+			s.add(arr1[i]);
+		}
+		
+		for(int i=0;i<arr2.length;i++) {
+			
+			s.add(arr2[i]);
+		}
+		
+		System.out.println(s);
+	}
+
+}
