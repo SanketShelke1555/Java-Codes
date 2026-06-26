@@ -1,0 +1,25 @@
+package collection;
+
+import java.util.ArrayList;
+
+public class Collectionex2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList name = new ArrayList();
+		
+		name.add("Sanket");
+		name.add("Atharva");
+		name.add("Chaitanya");
+		name.add("Dodo");
+		
+		System.out.println(name);
+		
+		name.set(2, "Mansi");
+		
+		System.out.println(name);
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package collection;
+
+import java.util.Vector;
+
+public class vectorex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Vector obj = new Vector(10);
+		obj.addElement(10);
+		obj.addElement(20);
+		obj.addElement(30);
+		obj.addElement(40);
+		obj.addElement(50);
+		obj.addElement(60);
+		
+		System.out.println(obj);
+		System.out.println("\n"+obj.size());
+		System.out.println("\n"+obj.capacity());
+	
+	}
+
+}

@@ -1,0 +1,33 @@
+package collection;
+
+import java.util.Stack;
+
+public class Stackex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Stack obj = new Stack();
+		
+		obj.push(10);
+		obj.push(20);
+		obj.push(30);
+		obj.push(40);
+		obj.push(50);
+		obj.push(60);
+		obj.push(70);
+		obj.push(80);
+		
+		obj.pop();
+		System.out.println("\n"+obj);
+		
+		System.out.println("\n"+obj.peek());
+		
+		System.out.println("\n"+obj.search(30));
+		
+		
+		
+		
+	}
+
+}

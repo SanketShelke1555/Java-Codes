@@ -1,0 +1,55 @@
+1:02:15 Microsoft.Shutdown.TabStripModel.CloseTabs
+1:02:15 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+1:02:15 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+1:02:15 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+1:02:15 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+1:02:15 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+1:02:15 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+1:02:15 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+1:02:15 Tab60 RenderProcessGone
+1:02:15 Microsoft.UnloadController.ClearUnloadState
+1:02:15 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+1:02:15 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+1:02:15 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+1:02:15 Browser60 Close Tab60 at 0
+1:02:15 Microsoft.UnloadController.ClearUnloadState
+1:02:15 Tab60 WebContentsDestroyed
+1:02:15 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+1:02:15 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+1:02:15 Microsoft.Shutdown.OnWindowClosing
+1:02:15 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+1:02:15 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+1:02:15 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+1:02:15 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+1:02:15 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:02:15 Widget Closed: BrowserWidget
+1:02:15 Microsoft.UnloadController.TabStripEmpty
+1:02:15 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+1:02:15 Microsoft.Shutdown.OnWindowClosing
+1:02:15 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+1:02:15 Microsoft.Browser_Removed
+1:05:12 Tab2 StartNav168 #typed
+1:05:12 Tab2 FinishNav168
+1:05:12 Tab2 PageLoad
+1:05:19 Tab2 StartNav169 #typed
+1:05:19 Tab2 FinishNav169
+1:05:19 Tab2 PageLoad
+1:05:19 Tab2 StartNav170 #typed
+1:05:19 Tab2 FinishNav170
+1:05:19 Tab2 PageLoad
+1:05:33 Tab2 StartNav171 #typed
+1:05:33 Tab2 FinishNav171
+1:05:33 Tab2 PageLoad
+1:06:02 Tab2 StartNav172 #typed
+1:06:02 Tab2 FinishNav172
+1:06:02 Tab2 PageLoad
+1:06:05 Tab2 StartNav173 #typed
+1:06:05 Tab2 FinishNav173
+1:06:05 Tab2 PageLoad
+1:06:06 Tab2 StartNav174 #typed
+1:06:06 Tab2 FinishNav174
+1:06:06 Tab2 PageLoad
+1:08:30 Tab2 StartNav175 #typed
+1:08:30 Tab2 FinishNav175
+1:08:30 Tab2 PageLoad
+1:15:41 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp

@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class bank {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+        System.out.print("Insert Your Acc No: ");
+        int n = sc.nextInt();
+        
+        int ac=n;
+        sc.nextLine(); 
+
+        System.out.println("Account Number: " + ac);
+        
+        emp e = new emp();
+        customer c = new customer();
+        
+	}
+
+}
+class emp extends Thread{
+	
+	public emp() {
+		// TODO Auto-generated constructor stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("\nWelcome Employee");
+		System.out.println("Enter Employee Name: ");
+		
+		
+		String en=sc.nextLine();
+		System.out.println("Employee Name:"+en);
+		
+	}
+	
+}
+
+class customer extends Thread{
+	String cname;
+
+    public customer() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Customer Name: ");
+        cname = sc.nextLine();
+
+        System.out.println("Customer Name: " + cname);
+    }
+}
+
+
+
+

@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class bank {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+        System.out.print("Insert Your Acc No: ");
+        int n = sc.nextInt();
+        
+        int ac=n;
+        sc.nextLine(); 
+
+        System.out.println("Account Number: " + ac);
+        
+	}
+
+}
+class emp extends bank{
+	
+	public emp() {
+		// TODO Auto-generated constructor stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your EName:");
+		
+		String en=sc.nextLine();
+		
+		System.out.println("Employee Name:"+en);
+		
+		
+	}
+	
+}
+
+class customer extends bank{
+	
+}
+
+
+
+
