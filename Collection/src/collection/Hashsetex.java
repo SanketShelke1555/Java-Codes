@@ -11,7 +11,7 @@ public class Hashsetex {
 		// TODO Auto-generated method stub
 		
 		HashSet obj= new HashSet();
-		
+		 
 		obj.add("Sanket");
 		obj.add("Mansi");
 		obj.add("Python");

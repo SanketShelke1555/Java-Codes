@@ -1,0 +1,27 @@
+package collection;
+
+import java.util.TreeSet;
+
+public class TreeSetex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		TreeSet obj = new TreeSet<>();
+		
+		obj.add("Sanket");
+		obj.add("Mansi");
+		obj.add("Chaitanya");
+		obj.add("Dodo");
+		obj.add("Sidd");
+		
+		System.out.println(obj);
+		
+		obj.remove("Chaitanya");
+		
+		System.out.println(obj);
+		
+
+	}
+
+}
