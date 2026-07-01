@@ -1,0 +1,46 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+//this code is to update data in our database.
+
+public class ex4 {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		// TODO Auto-generated method stub
+		
+		String url = "jdbc:mysql://localhost:3306/tecknowell";
+		String user = "root";
+		String password = "password";
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		System.out.println("Driver Loaded");
+		
+		Connection con = DriverManager.getConnection(url, user, password);
+		System.out.println("Connection success");
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Id :");
+		int r = sc.nextInt();
+		
+		System.out.println("Enter Marks:");
+		int m=sc.nextInt();
+		
+		PreparedStatement pstm = con.prepareStatement("update student set marks=? where id=?");
+		
+		pstm.setInt(1, m);
+		pstm.setInt(2, r);
+		
+		int i=pstm.executeUpdate();
+		if(i>0) {
+			
+			System.out.println("Record updated");
+		}
+		else {
+			System.out.println("Error");
+		}
+	}
+
+}
