@@ -122,21 +122,6 @@ As I continue learning, new concepts, examples, and projects will be added regul
 
 ---
 
-# 📂 Repository Structure
-
-```text
-Java-Codes
-│
-├── CoreJava
-├── OOP
-├── Collections
-├── ExceptionHandling
-├── Multithreading
-├── JDBC
-├── DSA
-├── MiniProjects
-├── PracticePrograms
-└── README.md
 ```
 
 ---
