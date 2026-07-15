@@ -1,0 +1,23 @@
+<web-app>
+
+    <context-param>
+        <param-name>company</param-name>
+        <param-value>Sanket Pvt Ltd</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>city</param-name>
+        <param-value>Pune</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>ContextServletex</servlet-name>
+        <servlet-class>ContextServletex</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ContextServletex</servlet-name>
+        <url-pattern>/context</url-pattern>
+    </servlet-mapping>
+
+</web-app>
