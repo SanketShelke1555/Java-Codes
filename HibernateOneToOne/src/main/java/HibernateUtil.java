@@ -23,11 +23,12 @@ public class HibernateUtil {
             properties.put(Environment.PASS, "password");
 
             properties.put(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect");
-            properties.put(Environment.HBM2DDL_AUTO, "update");
+            properties.put(Environment.HBM2DDL_AUTO, "validate");
             properties.put(Environment.SHOW_SQL, "true");
 
             cfg.setProperties(properties);
             cfg.addAnnotatedClass(Employee.class);
+            cfg.addAnnotatedClass(Laptop.class);
 
             ServiceRegistry registry = new StandardServiceRegistryBuilder()
                     .applySettings(cfg.getProperties())
